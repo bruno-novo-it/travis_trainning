@@ -1,15 +1,14 @@
 import pytest
-from principal import somar
-from principal import subtrair
+import principal
 
 ##Primeiro teste
 
 def teste_somar():
-	assert somar(2,4)==6
+	assert principal.somar(2,4)==6
 
 def teste_subtrair():
-	assert subtrair(10,4)==6
+	assert principal.subtrair(10,4)==6
 
 def teste_func():
-	assert func(3)==4
+	assert principal.func(3)==4
 
