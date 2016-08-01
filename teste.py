@@ -10,3 +10,6 @@ def teste_somar():
 def teste_subtrair():
 	assert subtrair(10,4)==6
 
+def teste_func():
+	assert func(3)==4
+
