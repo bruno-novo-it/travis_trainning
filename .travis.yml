@@ -10,7 +10,7 @@ python:
 
 # Comando para rodar os testes
 script:
-  - py.testes testes.py
+  - py.test testes.py
 
 after script:
   notifications:
