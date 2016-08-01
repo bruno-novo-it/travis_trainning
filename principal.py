@@ -1,9 +1,9 @@
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 ## Função de soma
 
-def soma(x,y):
-	"""docstring for soma"""
+def somar(x,y):
 	return (x + y)
 
 def subtrair(x,y):

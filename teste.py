@@ -1,10 +1,10 @@
 import pytest
-from principal import soma
+from principal import somar
 from principal import subtrair
 
 ##Primeiro teste
 
-def teste_soma():
+def teste_somar():
 	assert soma(2,4)==6
 
 def teste_subtrair():
